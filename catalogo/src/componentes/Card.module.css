@@ -1,0 +1,28 @@
+.container{
+    position: relative;
+    width: 260px;
+    margin: 30px;
+    overflow: hidden;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    background-color: rgb(8, 18, 61);
+    display: grid;
+    justify-content: center;
+    
+}
+figure{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+p{
+    color: aliceblue;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.container img{
+    height: 400px;
+    justify-content: center;
+}
