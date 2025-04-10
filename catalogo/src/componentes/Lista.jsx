@@ -1,12 +1,14 @@
 import axios from "axios";
 import React, {useState, useEffect} from "react";
 import { Card } from "./Card";
+import { Modal } from "./Modal";
 
 const API_URL  = 'https://api.themoviedb.org/3';
 const API_key = 'af26cce282aecf5c6cc39a264f29d0a7';
 
 export function Lista(){
     const [movies, setMovies] = useState([])
+    const[SelectedMovie, setSelectedMovie] = useState(null)
 
     // () parâmetros // {} script de programação // dependencias []
     useEffect(() =>{
@@ -18,17 +20,27 @@ export function Lista(){
         .catch(error =>{
             console.log('erro', error)
         });
+  
+    }, []);
 
-    }, [])
+    const  handleOpenModal = (movie)=>{
+        setSelectedMovie(movie);
+    }
+    const handleCloseModal = (movie) =>{
+        setSelectedMovie(null);
+    }
+
     return(
         <div>
             <figure>
                 {movies.map(movie=>(
                     <Card key={movie.id}
-                    movie={movie}
+                        movie={movie}
+                        onOpenModal = {handleOpenModal}
                     />
                 ))}
             </figure>
+            {SelectedMovie && (<Modal movie={SelectedMovie} onClose={handleCloseModal}/>)}
         </div>
     )
 

@@ -1,28 +1,32 @@
 .container{
     position: relative;
-    width: 260px;
+    width: 290px;
     margin: 30px;
     overflow: hidden;
     border-radius: 15px;
     transition: transform 0.3s ease;
-    background-color: rgb(8, 18, 61);
+    background-color: #16425B;
     display: grid;
+    justify-items: center;
+    align-items: center;
     justify-content: center;
     
 }
 figure{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
 p{
-    color: aliceblue;
+    color: #74B3CE;
     text-align: center;
 }
 h3{
     text-align: center;
 }
 .container img{
-    height: 400px;
-    justify-content: center;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
 }

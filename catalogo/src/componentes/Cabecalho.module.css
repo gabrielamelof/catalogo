@@ -2,18 +2,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(8, 18, 61);
+    background-color: #16425B;
     height: 150px;
 }
 h1{
     font-family: "Inter", sans-serif;
     font-size: 36px;
-    color: rgb(255, 255, 255);
+    color: #03045E;
     
 }
 h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: #0077B6;
 }
 

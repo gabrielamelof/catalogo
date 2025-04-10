@@ -4,7 +4,6 @@ import { Lista } from "./Lista";
 export function Conteudo(){
     return(
         <main className={estilos.container}>
-            <h1>Conteúdo</h1>
             <Lista/>
         </main>
     )
