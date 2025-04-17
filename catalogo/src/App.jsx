@@ -1,9 +1,6 @@
-
-import { Cabecalho } from './componentes/Cabecalho';
-import { Barranavegacao } from './componentes/Barranavegacao';
-import { Conteudo } from './componentes/Conteudo';
-import { Footer } from './componentes/Footer';
-
+import  React from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { Rotas } from './Rotas/Rotas';
 
 // Estrutura básica para usar React é através de funções
 function App() {
@@ -12,12 +9,9 @@ function App() {
     // para chamar o css: Usar um apelido (estilos) e chamar usando o ClassName
     
     // Tags fantasmas servem para que eu consiga usar duas tags no mesmo componente
-    <> 
-      <Cabecalho/>
-      <Barranavegacao/>
-      <Conteudo/>
-      <Footer/>
-    </>
+    <BrowserRouter>
+      <Rotas/>
+    </BrowserRouter>
   )
 }
 

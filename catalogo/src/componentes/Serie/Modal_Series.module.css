@@ -34,8 +34,6 @@
     color: rgb(199, 184, 100);
     text-align: center;
     flex-grow: 1;
-    padding-right: 50px;
-    padding-left: 50px;
 
 }
 .imgDetalhes{
@@ -50,10 +48,10 @@
     border-radius: 15px;
 }
 .movieDetails{
-    flex-grow: 1;
+    flex: 1;
     display: flex;
     flex-direction: column;
-    width: 70%; 
+    width: 30%;
 }
 
 .movieDetails ul{
@@ -69,17 +67,5 @@ button{
     padding: 15px;
     border: none;
     cursor: pointer;
-    align-self: flex-end; 
-    position: absolute;
-    right: 20px;
-    
-
-}
-
-.sinopse{
-    padding-top: 10px;
-    width: 100%;
-    text-align: justify;
-    max-height: 350px;
-    /* overflow-y: auto; */
+    align-self: flex-start;
 }

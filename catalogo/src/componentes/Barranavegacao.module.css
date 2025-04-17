@@ -17,6 +17,7 @@ ul{
 li{
     margin-left: 30px;
     color: rgb(247, 247, 247);
+    text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -24,4 +25,9 @@ li{
 }
 span{
     padding-right: 5px;
+    text-decoration: none;
+}
+
+.Link{
+    text-decoration: none;
 }
