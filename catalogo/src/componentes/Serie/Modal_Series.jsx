@@ -18,7 +18,7 @@ export function Modal_Series({serie, onClose}){
                             <li>{`Popularidade: ${serie.popularity}`}</li>
                             <li>{`Data de Lançamento: ${serie.first_air_date}`}</li>
                             <li>{`Quantidade de votos: ${serie.vote_count}`}</li>
-                            <li>{`Sinopse do filme: ${serie.overview}`}</li>
+                            <li className={estilos.sinopse}>{`Sinopse do filme: ${serie.overview}`}</li>
                         </ul>
                     </div>
                 </div>

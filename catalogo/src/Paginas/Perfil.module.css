@@ -1,7 +1,61 @@
+*{
+    box-sizing: border-box;
+}
 .container{
-    display: flex;
+    display: flex; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: rgb(28, 28, 28);
-    height: 85%;
+}
+.titulo {
+    color: #0077B6;;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.principal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+    background-color: #16425B;
+    height: 370px;
+    width: 50%;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+.foto{
+    height: 300px;
+    width: 300px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+} 
+.containerfoto, .info {
+    padding-top: 30px;
+    padding-right: 0; 
+    width: auto; 
+}
+.filmes{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.poster{
+    border-radius: 25px;
+    height: 300px;
+    width: 300px;
+}
+
+.series{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
 }

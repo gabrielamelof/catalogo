@@ -31,34 +31,40 @@
     margin-bottom: 15px;
 }
 .ModalHeader h2{
-    color: rgb(199, 184, 100);
+    color: #74B3CE;
     text-align: center;
     flex-grow: 1;
-
+    padding-right: 50px;
+    padding-left: 50px;
+    max-width: 300px;
 }
+
 .imgDetalhes{
     gap: 20px;
     display: flex;
 }
 
 .imgModal{
-    width: 40%;
+    width: 50%;
     max-width: 300px;
     height: auto;
     border-radius: 15px;
 }
-.movieDetails{
+
+.seriesDetails{
     flex: 1;
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 70%;
+    max-height: 350px;
 }
 
-.movieDetails ul{
+.seriesDetails ul{
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
+
 button{
     background-color: rgb(70, 70, 70);
     border-radius: 50px;
@@ -68,4 +74,11 @@ button{
     border: none;
     cursor: pointer;
     align-self: flex-start;
+}
+
+.sinopse{
+    padding-top: 10px;
+    width: 100%;
+    /* text-align: justify; */
+    max-height: 350px;
 }

@@ -31,13 +31,14 @@
     margin-bottom: 15px;
 }
 .ModalHeader h2{
-    color: rgb(199, 184, 100);
+    color:#74B3CE;
     text-align: center;
     flex-grow: 1;
     padding-right: 50px;
     padding-left: 50px;
 
 }
+
 .imgDetalhes{
     gap: 20px;
     display: flex;
@@ -81,5 +82,4 @@ button{
     width: 100%;
     text-align: justify;
     max-height: 350px;
-    /* overflow-y: auto; */
 }
