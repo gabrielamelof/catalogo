@@ -6,10 +6,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(28, 28, 28);
+    background-color: rgba(3, 3, 3, 0.88);
 }
 .titulo {
-    color: #0077B6;;
+    color: #0077B6;
     font-weight: 700;
     text-align: center;
     padding-top: 50px;
@@ -58,4 +58,8 @@
     padding-bottom: 20px;
     display: flex;
     justify-content: center;
+}
+
+.info h1{
+    color: #74B3CE;
 }
