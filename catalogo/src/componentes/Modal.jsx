@@ -1,11 +1,14 @@
 import estilos from './Modal.module.css';
 
 export function Modal({movie, onClose}){
+    // retorna nulo se !movie = True 
     if(!movie){
         return null;
     }
+    // mostra o filme no console
     console.log(movie);
 
+    // Estruturação e elementos apresentados no modal
     return(
         <div className={estilos.modalback}>
             <div className={estilos.modalContainer}>

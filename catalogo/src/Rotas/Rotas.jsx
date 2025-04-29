@@ -4,6 +4,7 @@ import { Perfil } from '../Paginas/Perfil';
 import { Lista } from '../componentes/Lista';
 import { Lista_Series } from '../componentes/Serie/Lista_Series';
 
+// definição de rotas usadas para o acesso de cada página
 export function Rotas(){
     return(
         <Routes>

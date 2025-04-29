@@ -2,6 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(28, 28, 28);
+    background-color: rgba(3, 3, 3, 0.88);
     height: 85%;
 }

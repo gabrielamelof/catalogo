@@ -13,20 +13,24 @@ export function Lista(){
 
     // () parâmetros // {} script de programação // dependencias []
     useEffect(() =>{
+        // Usa a chave da api para exibir a lista de filmes populares
         axios.get(`${API_URL}/movie/popular?api_key=${API_key}&language=pt-BR`)
         .then(response =>{
             console.log(response.data.results)
             setMovies(response.data.results)
         })
+        // Mostra mensagem de erro no console caso a aplicação não funcione como deveria
         .catch(error =>{
             console.log('erro', error)
         });
   
     }, []);
 
+    // Quando clicado, o filme escolhido é exibido no modal 
     const  handleOpenModal = (movie)=>{
         setSelectedMovie(movie);
     }
+    // Define o filme escolhido como nulo quando o modal é fechado
     const handleCloseModal = (movie) =>{
         setSelectedMovie(null);
     }

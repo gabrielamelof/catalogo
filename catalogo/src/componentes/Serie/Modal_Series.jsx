@@ -6,6 +6,7 @@ export function Modal_Series({serie, onClose}){
     }
     console.log(serie);
 
+// Estrutura e criação do conteúdo do modal de séries
     return(
         <div className={estilos.modalback}>
             <div className={estilos.modalContainer}>

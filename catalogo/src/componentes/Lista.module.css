@@ -1,3 +1,4 @@
+/* Estilização do componente container */
 .container{
     display: flex;
     flex-wrap: wrap;

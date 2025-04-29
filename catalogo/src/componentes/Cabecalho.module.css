@@ -1,3 +1,4 @@
+/* Estilização do cabeçalho padrão utilizado nas páginas da aplicação */
 .container{
     display: flex;
     justify-content: space-around;

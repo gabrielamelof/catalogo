@@ -1,4 +1,6 @@
 import estilos from './Perfil.module.css';
+
+// Importação das imagens contidas na página perfil
 import foto from '../assets/foto.svg';
 import newgirl from '../assets/newgirl.svg';
 import pll from '../assets/pll.svg';
@@ -12,6 +14,7 @@ export function Perfil(){
     return(
         <main className={estilos.container}>
             <h1 className={estilos.titulo}>Meu Perfil</h1>
+            {/* Container principal com foto e informações sobre o usuário do perfil */}
             <section className={estilos.principal}>
                 <div className={estilos.containerfoto}>
                     <img className={estilos.foto} src={foto} alt="" />
@@ -29,6 +32,7 @@ export function Perfil(){
 
             </section>
 
+                {/* Seção de séries favoritas */}
                 <h1 className={estilos.titulo}> Séries Favoritas</h1>
                 <section className={estilos.filmes}>
                     <img className={estilos.poster} src={pll} alt="" />
@@ -36,6 +40,7 @@ export function Perfil(){
                     <img className={estilos.poster} src={succession} alt="" />
                 </section>
 
+                {/* Seção de filmes favoritos */}
                 <h1 className={estilos.titulo}> Filmes Favoritas</h1>
                 <section className={estilos.series}>
                     <img className={estilos.poster} src={lalaland} alt="" />

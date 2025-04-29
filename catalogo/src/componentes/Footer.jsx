@@ -1,5 +1,6 @@
 import estilos from "./Footer.module.css";
 
+// Criação do componente footer que está presente em todas as páginas da aplicação
 export function Footer(){
     return(
         <footer className={estilos.container}>
